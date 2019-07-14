@@ -32,11 +32,11 @@ under resources i.e target/allure-results. Tests will appear there after running
 
 How to run maven build.
 
-From project directory /conconv
+From project directory /conconv-master
 mvn test -P test
 It should run all tests in test class.
 To see test results in allure (allure needs to be installed)
-From the project directory  /conconv
+From the project directory  /conconv-master
 cd target
 allure serve allure-results
 
